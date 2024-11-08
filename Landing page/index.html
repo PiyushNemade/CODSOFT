@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Adventures</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo"><a href="#">Travel Adventures</a></div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-img">
+        <img src="/image/hero-bg.png" alt="bg image" />
+      </div>
+      <div id="home" class="hero-content">
+        <h1>Your Journey Begins Here</h1>
+        <p>Discover amazing places at exclusive deals</p>
+        <a href="#destinations" class="cta-btn">Explore Now</a>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+      <h2 class="heading">Popular Destinations</h2>
+      <div class="destination-cards">
+        <div class="destination-card card1">
+          <img src="image/paris.jpg" alt="Paris" />
+          <h3>Paris</h3>
+          <p>Starting from $499</p>
+        </div>
+        <div class="destination-card card2">
+          <img src="/image/maldives.jpg" alt="Maldives" />
+          <h3>Maldives</h3>
+          <p>Starting from $799</p>
+        </div>
+        <div class="destination-card card3">
+          <img src="image/new york.jpg" alt="New York" />
+          <h3>New York</h3>
+          <p>Starting from $399</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages">
+      <h2 class="heading">Our Travel Packages</h2>
+      <div class="package-cards">
+        <div class="package-card">
+          <h3>European Explorer</h3>
+          <p>
+            Explore the best of Europe with stops in France, Italy, and Spain.
+            <br />
+            <br />Price: $1,299
+          </p>
+        </div>
+        <div class="package-card">
+          <h3>Caribbean Cruise</h3>
+          <p>
+            Enjoy a luxury cruise across the Caribbean islands. All-inclusive
+            package.
+            <br />
+            <br />Price: $1,499
+          </p>
+        </div>
+        <div class="package-card">
+          <h3>Asian Adventure</h3>
+          <p>
+            Discover the wonders of Asia with visits to Japan, Thailand, and
+            China.
+            <br />
+            <br />Price: $1,799
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews">
+      <h2 class="heading">What Our Clients Say</h2>
+      <div class="review-slider">
+        <button class="prev">&#10094;</button>
+        <div class="review-container">
+          <div class="review">
+            <p>
+              "The trip to Paris was a dream come true! Travel Adventures
+              handled everything perfectly."
+            </p>
+            <br />
+            <p><strong>- Sarah W.</strong></p>
+          </div>
+          <div class="review">
+            <p>
+              "Our family vacation to the Maldives was unforgettable. The
+              all-inclusive package was worth every penny."
+            </p>
+            <p><br /><strong>- Michael R.</strong></p>
+          </div>
+          <div class="review">
+            <p>
+              "I had an amazing time in New York thanks to Travel Adventures.
+              The entire process was seamless."
+            </p>
+            <p><br /><strong>- Emily J.</strong></p>
+          </div>
+        </div>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="heading">Contact Us</h2>
+      <form class="contact-details">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <p>Copyright &copy; 2024 Travel Adventures | All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
